@@ -13,10 +13,10 @@ def info_alumnos():
     writer.up()
     writer.goto(-100,170)
     writer.color("blue")
-    writer.write("Jose Manuel Saldua Gonzalez A00830218", align="left", font(chalkboard,15,"normal"))
+    writer.write("Jose Manuel Saldua Gonzalez A00830218", align="left", font=(chalkboard,15,"normal"))
     writer.goto(-100,170)
     writer.color(#777777)
-    writer.write("Pedro Andres Fernandez Lopez A01235998", align="left", font(chalkboard,15,"normal"))
+    writer.write("Pedro Andres Fernandez Lopez A01235998", align="left", font=(chalkboard,15,"normal"))
     
 
 def line(start, end):
