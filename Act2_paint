@@ -39,8 +39,27 @@ def square(start, end):
 
     end_fill()
 
-def circle(start, end):
+def circle(start, end): #Funcion para crear un Circulo
     "Draw circle from start to end."
+    midX = 0
+    midY = 0
+    if(start.x < end.x):
+        midX = start.x - end.x
+    else:
+        midX = end.x - start.x
+    if(start.y < end.y):
+        midY = start.y - end.y
+    else:
+        midY = end.y - start.y
+            
+    up()
+    goto(midX, midY)
+    down()
+
+    rad = sqrt(pow(abs(start.x - midX), 2) + pow(abs(start.y - midY), 2))/2
+
+    tur.circle(rad)
+    
     pass  # TODO
 
 def rectangle(start, end): #Funcion para crear un Rectangulo
@@ -87,6 +106,9 @@ def tap(x, y):
 def store(key, value):
     "Store value in state at key."
     state[key] = value
+    
+def color(val):
+    tur.color(val)
 
 state = {'start': None, 'shape': line}
 setup(420, 420, 370, 0)
