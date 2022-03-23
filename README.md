@@ -3,7 +3,7 @@
 ## Pedro Andres Fernandez Lopez - A01235998
 ## José Manuel Saldua González - A00830218
 
-## Funcion circle
+### Funcion circle
 ```
 def circle(start, end): #Funcion para crear un Circulo
     "Draw circle from start to end."
@@ -29,7 +29,7 @@ def circle(start, end): #Funcion para crear un Circulo
     pass  # TODO
 ```
 
-## Funcion color
+### Funcion color
 ```
 def color(val):
     tur.color(val)
