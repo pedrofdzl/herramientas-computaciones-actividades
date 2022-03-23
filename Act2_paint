@@ -43,8 +43,17 @@ def rectangle(start, end): #Funcion para crear un Rectangulo
     end_fill()
     pass  # TODO
 
-def triangle(start, end):
-    "Draw triangle from start to end."
+def triangle(start, end): #Funcion para crear un Triangulo
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    for count in range(2):
+        forward(end.x - start.x)
+        left(60)
+        
+    end_fill()
     pass  # TODO
 
 def tap(x, y):
