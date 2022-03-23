@@ -3,7 +3,7 @@
 from turtle import *
 from freegames import vector
 
-writer = turte()
+writer = turtle()
 
 def info_alumnos():
     color("#A9A9A9")
