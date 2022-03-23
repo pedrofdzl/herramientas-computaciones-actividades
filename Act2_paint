@@ -3,6 +3,22 @@
 from turtle import *
 from freegames import vector
 
+writer = turte()
+
+def info_alumnos():
+    color("#A9A9A9")
+    line(vector(-200,0),vector(200,0))
+    line(vector(0,-200),vector(0,200))
+    riter.hideturtle()
+    writer.up()
+    writer.goto(-100,170)
+    writer.color("blue")
+    writer.write("Jose Manuel Saldua Gonzalez A00830218", align "left", font(chalkboard,15,"normal"))
+    writer.goto(-100,170)
+    writer.color(#777777)
+    writer.write("Pedro Andres Fernandez Lopez A01235998", align "left", font(chalkboard,15,"normal"))
+    
+
 def line(start, end):
     "Draw line from start to end."
     up()
