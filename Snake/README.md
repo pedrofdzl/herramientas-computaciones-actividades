@@ -31,3 +31,53 @@ lista_colores.remove(color_snake)
 
 color_comida = choice(lista_colores)
 ```
+### Movimiento al azar de la comida dentro de move() (Pedro)
+```
+    global foodCounter
+    if(foodCounter == 3):
+        rand1 = randrange(0,2)
+        rand2 = randrange(0,2)
+        if rand1 == 0:
+            if rand2 == 0:
+                food.x += -10
+                if not inside(food):
+                    food.x += 10
+            else:
+                food.x += 10
+                if not inside(food):
+                    food.x += -10
+        else:
+            if rand2 == 0:
+                food.y += -10
+                if not inside(food):
+                    food.y += 10
+            else:
+                food.y += 10
+                if not inside(food):
+                    food.y += -10
+        foodCounter = 0
+    else:
+        foodCounter += 1
+```
+
+### Validacion del spawn de la comida (Pedro)
+```
+while food in snake:
+            food.x = randrange(-15, 15) * 10
+            food.y = randrange(-15, 15) * 10
+```
+
+### Score del jugador (extra) (Pedro)
+```
+def refresh_score():
+    color("#000000")
+    writer.hideturtle()
+    writer.up()
+    writer.goto(160,170)
+    writer.color("white")
+    writer.begin_fill()
+    writer.circle(10)
+    writer.end_fill()
+    writer.color("black")
+    writer.write(len(snake), align="left", font=("chalkboard",10,"normal"))
+```
