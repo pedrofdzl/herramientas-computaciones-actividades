@@ -22,3 +22,12 @@ def info_alumnos():
     writer.color("black")
     writer.write("Pedro Fernandez A01235998", align="left", font=("chalkboard",15,"normal"))
 ```
+### color comida/snake (Jose Manuel)
+```
+lista_colores=["black","green","blue","#D6B85A","#82EEFD" ]
+color_snake = choice(lista_colores)
+
+lista_colores.remove(color_snake)
+
+color_comida = choice(lista_colores)
+```
