@@ -6,7 +6,7 @@
 
 
 ### Funcion info Alumnos (Jose Manuel)
-` ` ` 
+```
 writer = Turtle()
 
 def info_alumnos():
@@ -21,4 +21,4 @@ def info_alumnos():
     writer.goto(-160,140)
     writer.color("black")
     writer.write("Pedro Fernandez A01235998", align="left", font=("chalkboard",15,"normal"))
-` ` ` 
+```
