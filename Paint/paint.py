@@ -2,6 +2,8 @@
 #Pedro Andres Fernandez Lopez A01235998
 from turtle import *
 from freegames import vector
+from math import *
+import turtle as tur
 
 writer = Turtle()
 
