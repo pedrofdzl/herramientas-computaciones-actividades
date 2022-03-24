@@ -85,4 +85,6 @@ def triangle(start, end): #Jose Manuel Saldua
     end_fill()
     pass  # TODO
 ```
+
+## Gif del funcionamiento
 ![Gif](https://s1.gifyu.com/images/paint.gif)
