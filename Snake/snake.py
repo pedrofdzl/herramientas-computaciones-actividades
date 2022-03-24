@@ -1,6 +1,10 @@
 from turtle import *
 from random import randrange
 from freegames import square, vector
+from random import randrange, choice
+
+writer = Turtle()
+tracer(False)
 
 def info_alumnos():
     color("#000000")
@@ -19,7 +23,7 @@ food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
 
-lista_colores=["black","green","blue","#D6B85A","#82EEFD" ]
+lista_colores=["black","green","blue","#D6B85A","#82EEFD"]
 color_snake = choice(lista_colores)
 
 lista_colores.remove(color_snake)
@@ -54,6 +58,27 @@ def move():
     else:
         snake.pop(0)
 
+    rand1 = randrange(0,2)
+    rand2 = randrange(0,2)
+    if rand1 == 0:
+        if rand2 == 0:
+            food.x += -10
+            if not inside(food):
+                food.x += 10
+        else:
+            food.x += 10
+            if not inside(food):
+                food.x += -10
+    else:
+        if rand2 == 0:
+            food.y += -10
+            if not inside(food):
+                food.y += 10
+        else:
+            food.y += 10
+            if not inside(food):
+                food.y += -10
+
     clear()
 
     for body in snake:
@@ -62,6 +87,12 @@ def move():
     square(food.x, food.y, 9, color_comida)
     update()
     ontimer(move, 100)
+
+def line(p1, p2):
+    penup()
+    goto(p1)
+    pendown()
+    goto(p2)
 
 setup(420, 420, 370, 0)
 hideturtle()
