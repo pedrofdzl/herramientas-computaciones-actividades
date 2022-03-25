@@ -81,3 +81,6 @@ def refresh_score():
     writer.color("black")
     writer.write(len(snake), align="left", font=("chalkboard",10,"normal"))
 ```
+
+## Gif del funcionamiento
+![Gif](https://gfycat.com/ampleglamorousinvisiblerail)
