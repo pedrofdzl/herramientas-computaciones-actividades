@@ -83,4 +83,4 @@ def refresh_score():
 ```
 
 ## Gif del funcionamiento
-![Gif](https://imgur.com/a/decRjTN)
+![Gif](https://media3.giphy.com/media/qOd53MAlzZfonptJUB/giphy.gif?cid=790b76115c6c0e23732546d75e44c1b50e0e8401dfb0b653&rid=giphy.gif&ct=g)
