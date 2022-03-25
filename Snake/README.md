@@ -83,4 +83,4 @@ def refresh_score():
 ```
 
 ## Gif del funcionamiento
-![Gif](https://gfycat.com/ampleglamorousinvisiblerail)
+![Gif](https://imgur.com/a/decRjTN)
