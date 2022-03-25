@@ -59,7 +59,14 @@ def info_alumnos():
     writer.color("black")
     writer.write("Pedro Fernandez A01235998", align="left", font=("chalkboard",10,"normal"))
 ```
+### Creacion de lista paises (Jose Manuel)
+```
+car = path('car.gif')
+tiles = ["chad","catar","cuba","china","butan","benin","chile","fiyi","gabon","ghana","haiti","india","irak","iran","japon","kenia","laos","libia","mali","malta","nauru","nepal","niger","oman","peru","rusia","samoa","siria","sudan","suiza","togo","tonga"] * 2
+state = {'mark': None}
+hide = [True] * 64
 
+```
 ### Winning message (Pedro)
 ```
 # Dentro de draw() se checa si todas las casillas estan reveladas, si es verdad, se muestra el mensaje
