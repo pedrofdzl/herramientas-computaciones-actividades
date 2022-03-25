@@ -3,6 +3,12 @@
 ## Pedro Andres Fernandez Lopez - A01235998
 ## José Manuel Saldua González - A00830218
 
+## Videos
+### Video Pedro
+[link]
+### Video José Manuel
+[link]
+
 ### Contador de taps (Pedro)
 ```
 # Se crea otra turtle para que esta sea la writer que escribira los textos necesarios
@@ -73,3 +79,8 @@ def info_alumnos():
         writer.goto(0, 10)
         writer.write("Felicidades!!", align="center", font=("chalkboard",20,"normal"))
 ```
+## Gif funcionamiento
+[agregar gif]
+
+## Commits hechos en el repositiorio
+![image](https://user-images.githubusercontent.com/77637841/160159990-5e21dbb6-1025-476d-98ae-400e69f3138e.png)
