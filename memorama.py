@@ -10,7 +10,7 @@ startUp = False
 nTaps = 0
 
 car = path('car.gif')
-tiles = list(range(32)) * 2
+tiles =["chad","catar","cuba","china","butan","benin","chile","fiyi","gabon","ghana","haiti","india","irak","iran","japon","kenia","laos","libia","mali","malta","nauru","nepal","niger","oman","peru","rusia","samoa","siria","sudan","suiza","togo","tonga"] * 2
 state = {'mark': None}
 hide = [True] * 64
 
