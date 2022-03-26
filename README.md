@@ -5,7 +5,7 @@
 
 ## Videos
 ### Video Pedro
-[link]
+https://youtu.be/QyLugnvPgm4
 ### Video José Manuel
 https://drive.google.com/file/d/1U8dmeTwIkEO_LDfR0i3RblZUCpMx4Q8G/view?usp=sharing
 
