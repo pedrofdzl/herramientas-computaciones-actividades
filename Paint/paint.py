@@ -1,4 +1,4 @@
-#Jose Manuel Saldua A00830218
+#Jose Manuel Saldua A00830218 ITD
 #Pedro Andres Fernandez Lopez A01235998
 from turtle import *
 from freegames import vector
